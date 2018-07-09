@@ -17,6 +17,6 @@ public class TestController {
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public String listAttr(){
         System.out.println("请求成功");
-        return "请求成功!";
+        return "请求成功3213213213213213213213!";
     }
 }
