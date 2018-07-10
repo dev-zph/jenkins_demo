@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM docker.io/openjdk
 ADD *.jar /opt/app.jar
 # time zone
 RUN echo "Asia/Shanghai" > /etc/timezone
